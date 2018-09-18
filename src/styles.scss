@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* parent selector not working -- should output .hl.hl-1 but not being applied in DOM */
+.hl {
+	&.h1-1 {
+		background-color: #ffff00;
+	}
+}
+
+.hl.hl-1 {
+	background-color: #ffff00;
+}

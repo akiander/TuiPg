@@ -1,5 +1,10 @@
 # TuiPg
 
+ToastUI Editor Playground Code. This uses the tui-editor control and reproduces an issue where we want the highlighter to highlight text in both markdown and wysiwyg modes but with code blocks it only works in the former.
+
+https://github.com/akiander/TuiPg.git
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
 ## Development server

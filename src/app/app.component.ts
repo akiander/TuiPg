@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app';
+
+  title: string = 'Toast UI Editor';
+  controlName: string = "myControl";
+  markdownOptions: any = {
+		initialEditType: 'wysiwyg',
+		height: '30rem'
+	};
+
 }
